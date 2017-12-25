@@ -16,7 +16,7 @@ public class UserAction {
     @Autowired
     private UserService userService;
     
-    @RequestMapping(value="/userlist",produces="text/html;charset=UTF-8" )   
+    @RequestMapping(value="/userlist.do",produces="text/html;charset=UTF-8" )   
     @ResponseBody  
     public String userList(){
         String list = userService.list(1);

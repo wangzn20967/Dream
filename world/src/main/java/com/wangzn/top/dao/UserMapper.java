@@ -1,9 +1,8 @@
 package com.wangzn.top.dao;
 
-import org.springframework.stereotype.Repository;
 
 import com.wangzn.top.model.User;
-@Repository
+
 public interface UserMapper {
     int deleteByPrimaryKey(Integer id);
 

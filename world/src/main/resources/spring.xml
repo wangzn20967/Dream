@@ -39,7 +39,7 @@
         <property name="mapperLocations" value="classpath:com/wangzn/top/mapping/*.xml" />  
     </bean>  
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">  
-        <property name="basePackage" value="com.wangzn.top.mapping" />  
+        <property name="basePackage" value="com.wangzn.top.dao" />  
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />  
     </bean>  
   

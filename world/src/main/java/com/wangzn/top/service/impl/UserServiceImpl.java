@@ -7,7 +7,7 @@ import com.alibaba.fastjson.JSON;
 import com.wangzn.top.dao.UserMapper;
 import com.wangzn.top.model.User;
 import com.wangzn.top.service.UserService;
-@Service
+@Service("userService")
 public class UserServiceImpl implements UserService {
     @Autowired
     private UserMapper userMapper;
